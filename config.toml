@@ -16,10 +16,20 @@ Paginate = 4
     weight = -100
     url = "/docs/"
 [[menu.main]]
-    name = "Blog"
+    name = "News"
     weight = -100
     url = "/blog/"
 [[menu.main]]
     name = "Faq"
     weight = -100
     url = "/faq/"
+[[menu.main]]
+    name = "Who We Are"
+    identifier = "about"
+    weight = -100
+    url = "/about/"
+[[menu.main]]
+    name = "Board"
+    parent = "about"
+    weight = -100
+    url = "/about/board/"
