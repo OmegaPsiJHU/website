@@ -16,9 +16,37 @@
   background-color: #f1f1f1; }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+li:hover .dropdown-content {
   display: block; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41; }
+
+.dropdown ul {
+  display: block !important;
+}
+
+.dropdown li {
+  margin-right: 0px !important;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.dropdown a {
+  display: block !important;
+}
+h1 a {
+  text-decoration: none;
+}
+
+#posts h1, #posts p {
+  text-align: left;
+}
+#posts p {
+  padding-bottom: 16px;
+}
+hr {
+  border-bottom: none;
+}
+/* listen to mee */
