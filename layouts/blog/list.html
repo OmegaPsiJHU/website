@@ -1,4 +1,4 @@
-{{ define "title"}} {{ .Title}} {{end}}
+{{ define "title"}} News {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 
 {{ define "main" }}
@@ -8,9 +8,12 @@
     <p>Our vision, news and ideas, and whatever feels important.<br> <a href="{{.Params.twitter}}">Follow us on Twitter</a></p>
 </div>
 <ul id="posts">
-
- {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
-  <section>{{ partial "pagination" .}}</section>
+    <div class="centerblock">
+        <div class="inner">
+         {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
+         </div>
+      <section>{{ partial "pagination" .}}</section>
+     </div>
 </ul>
 
 {{ end }} 

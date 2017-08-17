@@ -1,52 +1,35 @@
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1; }
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block; }
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #f1f1f1; }
-
-/* Show the dropdown menu on hover */
-li:hover .dropdown-content {
-  display: block; }
-
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41; }
 
 .dropdown ul {
-  display: block !important;
-}
-
+  display: block !important; }
 .dropdown li {
   margin-right: 0px !important;
   font-size: 15px;
-  font-weight: 400;
-}
-
+  font-weight: 400; }
 .dropdown a {
-  display: block !important;
-}
-h1 a {
-  text-decoration: none;
-}
+  display: block !important; }
 
-#posts h1, #posts p {
-  text-align: left;
-}
-#posts p {
-  padding-bottom: 16px;
-}
+#posts {
+  max-width: none; }
+  #posts h1 a {
+    text-decoration: none; }
+  #posts p {
+    padding-bottom: 16px; }
+  #posts .inner, #posts h1, #posts p {
+    text-align: left;
+    display: inline-block; }
+  @media (min-width: 1000px) {
+    #posts {
+      max-width: 60%; } }
+  @media (max-width: 999px) {
+    #posts {
+      max-width: 680px; } }
+  #posts div.center-block {
+    text-align: center; }
+
 hr {
-  border-bottom: none;
-}
-/* listen to mee */
+  border-bottom: none; }
+
+/*# sourceMappingURL=custom.css.map */
