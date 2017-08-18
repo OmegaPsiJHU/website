@@ -33,3 +33,7 @@ Paginate = 4
     parent = "about"
     weight = -100
     url = "/about/board/"
+[[menu.main]]
+    name = "Contact Us"
+    weight = 100
+    url = "/contact/"
