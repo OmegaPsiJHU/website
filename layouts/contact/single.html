@@ -7,21 +7,21 @@
   <h1>{{.Title}}</h1>
   <p>{{.Description}}</p>
 </div>
-<div id="main">
+<div id="main" class="contact">
 	{{.Content}}
 	<div id="contact">
 		<form action="https://formspree.io/jhu.omegapsi@gmail.com"
 		      method="POST" class="form">
 		          <div class="form-item">
 		    	<label>Name</label>
-		    	<input type="text" name="name" class="w50">
+		    	<input type="text" name="name" class="w70">
 		    </div>
 		    <div class="form-item">
 		    	<label>Email <span class=“req”>*</span></label>
-		    	<input type="email" name="_replyto" class="w50">
+		    	<input type="email" name="_replyto" class="w70">
 		    </div>
 		    <div class="form-item">
-		        <textarea name="message" rows="6"></textarea>
+		        <textarea name="message" rows="6" ></textarea>
 		    </div>
 		    <div class="form-item">
 		    <button type="submit">Send</button>
