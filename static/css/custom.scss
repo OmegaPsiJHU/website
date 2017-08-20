@@ -64,6 +64,7 @@ hr {
     div.body p {
         text-align: left;
         max-width: none;
+        font-size: 16px;
     }
 
     h4 {
@@ -73,9 +74,22 @@ hr {
     text-align: left;
 
     .col {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
-
+    @include breakpoint(1000px) {
+        .bio {
+            position: relative;
+            .vertical-center {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 50%;
+                margin: auto;
+            }
+        }
+    }
 }
 
 .headshot {
@@ -84,6 +98,7 @@ hr {
         display: block;
         margin: 0 auto;
     }
+    border-radius: 50%;
 }
 
 .role {
@@ -94,3 +109,22 @@ hr {
 .req {
     color: red;
 }
+
+@media only screen and (max-width: 768px) {
+    div .dropdown.open {
+        position: static !important;
+        box-shadow: none;
+    }
+
+    #top #top-nav-main li {
+        text-align: left;
+    }
+}
+
+.dropdown.open {
+    li {
+        min-width: 190px;
+    }
+}
+
+

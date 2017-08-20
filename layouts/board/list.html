@@ -12,8 +12,10 @@
         <img src="{{ .Params.headshot }}" alt="{{ .Title }}" class="headshot">
       </div>
       <div class="col col-8 bio">
-        <h4>{{ .Title }} - <span class="role">{{ .Params.role }}</span></h4>
-        <div class=body>{{ .Content }}</div>
+        <div class="vertical-center">
+          <h4>{{ .Title }} - <span class="role">{{ .Params.role }}</span></h4>
+          <div class=body>{{ .Content }}</div>
+        </div>
       </div>
       {{ end }}
 

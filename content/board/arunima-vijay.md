@@ -2,7 +2,7 @@
 title = "Arunima Vijay"
 date = 2017-08-18T12:26:12-05:00
 description = ""
-headshot = "/img/headshot/default.png"
+headshot = "/img/headshot/arunima-vijay.png"
 weight = 5
 draft = false
 role = "Co-President"
