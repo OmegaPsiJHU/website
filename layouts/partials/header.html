@@ -1,13 +1,13 @@
 <div class="show-sm">
     <div id="nav-toggle-box">
       <div id="nav-toggle-brand">
-        <a href="/">ΩΨ JHU</a>
+        <a href="/"><img src="/img/head.png"></a>
       </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
     </div>
   </div>
   <div class="hide-sm" id="top">
     <div id="top-brand">
-      <a href="/" title="home">ΩΨ JHU</a>
+      <a href="/" title="home"><img src="/img/head.png"></a>
     </div>
     <nav id="top-nav-main">
       <ul>
@@ -16,7 +16,7 @@
     <li>
       <a href="{{ .URL }}" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}} {{ if .HasChildren }}data-component="dropdown" data-target="#{{ .Identifier }}-dropdown"{{end}}>{{ .Name }}{{ if .HasChildren }}<span class="caret down"></span>{{end}}</a>
       {{ if .HasChildren }}
-        <div class="dropdown hide" id="{{ .Identifier }}-dropdown">
+        <div class="dropdown hide" id="{{ .Identifier }}-dropdown" style="overflow: hidden;">
           <ul>
           {{ range .Children }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>

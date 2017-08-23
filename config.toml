@@ -13,17 +13,9 @@ Paginate = 4
   facebook = "https://www.facebook.com/jhu.omegapsi/"
 
 [[menu.main]]
-    name = "Docs"
-    weight = -100
-    url = "/docs/"
-[[menu.main]]
     name = "News"
     weight = -100
     url = "/blog/"
-[[menu.main]]
-    name = "Faq"
-    weight = -100
-    url = "/faq/"
 [[menu.main]]
     name = "Who We Are"
     identifier = "who"
@@ -43,3 +35,13 @@ Paginate = 4
     name = "Contact Us"
     weight = 100
     url = "/contact/"
+[[menu.main]]
+    name = "Conference"
+    weight = 50
+    identifier = "conference"
+    url = "/conference/"
+[[menu.main]]
+    name = "Past Conferences"
+    weight = 100
+    parent = "conference"
+    url = "/conference/past/"

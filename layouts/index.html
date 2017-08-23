@@ -4,35 +4,38 @@
 
 
 <div id="hero" class="main">
+  <div id="logo">
+    <img src="/img/logo.png">
+  </div>
   <h1>{{.Title}}</h1>
   <p>{{.Description}}</p>
+  <div id="action-buttons">
+    <a class="button primary big" href="/contact/">Contact Us</a> <a class="button outline big" href="https://www.facebook.com/jhu.omegapsi/">Find us on Facebook</a>
+  </div>
 </div>
 <div id="main">
-  <div id="action-buttons">
-    <a class="button primary big" href="https://github.com/jeblister/kube/releases/tag/v1.0.1" onclick="_gaq.push(['_trackEvent', 'kube', 'download', '1.0']);">Download</a> <a class="button outline big" href="https://github.com/jeblister/kube" onclick="_gaq.push(['_trackEvent', 'kube', 'github', '1.0.0']);">View on Github</a>
-  </div>
   <div id="kube-features">
     <div class="row gutters">
-      <div class="col col-4 item">
+      <div class="col col-6 item">
         <figure>
-          <img alt="Baseline" height="48" src="/img/kube/icon-baseline.png" width="48">
+          <i class="fa fa-graduation-cap fa-4x fa-outline" alt="Academics"></i>
         </figure>
-        <h3>Horizontal Rhythm</h3>
-        <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+        <h3>Academics</h3>
+          <p>Meet other people interested in the brain sciences and get to know professors in the department at our meetings. Plus, become an honors member to show off your hard work. Learn more at our <a href="https://omegapsi.org">national site.</a></p>
       </div>
-      <div class="col col-4 item">
+      <!--<div class="col col-4 item">
         <figure>
           <img alt="Typography" height="48" src="/img/kube/icon-typo.png" width="48">
         </figure>
-        <h3>Typography</h3>
-        <p>We obsess over typography, and it shows throughout Kube.</p>
-      </div>
-      <div class="col col-4 item">
+        <h3>Service</h3>
+        <p></p>
+      </div>-->
+      <div class="col col-6 item">
         <figure>
-          <img alt="Minimalism" height="48" src="/img/kube/icon-minimalism.png" width="48">
+         <i class="fa fa-briefcase fa-4x fa-outline" alt="Conference"></i>
         </figure>
-        <h3>Minimalism</h3>
-        <p>We strongly believe in minimalism as a general concept as well as a practical approach to everyday life.</p>
+        <h3>Conference</h3>
+        <p>We have hosted the east coast Omega Psi conference for the past two years, featuring speakers from Yale, Duke, and JHU, and will proudly do so again this year. Check back for updates!</p>
       </div>
     </div>
   </div>
