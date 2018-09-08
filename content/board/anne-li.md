@@ -8,4 +8,4 @@ draft = false
 role = "Co-President"
 +++
 
-Anne is a junior at the Johns Hopkins University double majoring in neuroscience and Spanish on a pre-medical track. Her research interests include using microRNAs as a potential source of therapy for diseases, especially neurological diseases and brain cancers. She is currently working with microRNAs and glioblastoma. Her aim is to achieve an MD-PhD and work in pediatric neurology.
+Anne is a senior at the Johns Hopkins University double majoring in neuroscience and Spanish on a pre-medical track. Her research interests include using microRNAs as a potential source of therapy for diseases, especially neurological diseases and brain cancers. She is currently working with microRNAs and glioblastoma. Her aim is to achieve an MD-PhD and work in pediatric neurology.
