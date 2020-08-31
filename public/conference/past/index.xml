@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Past Conferences on Omega Psi at JHU</title>
+    <link>https://OmegaPsiJHU.github.io/conference/past/</link>
+    <description>Recent content in Past Conferences on Omega Psi at JHU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Aug 2017 22:15:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://OmegaPsiJHU.github.io/conference/past/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2017</title>
+      <link>https://OmegaPsiJHU.github.io/conference/past/2017/</link>
+      <pubDate>Wed, 23 Aug 2017 17:26:23 -0500</pubDate>
+      
+      <guid>https://OmegaPsiJHU.github.io/conference/past/2017/</guid>
+      <description>This conference was held in collaboration with Duke and Yale.
+Featured speakers:
+ Dr. Joshua Knobe from Yale University on experimental philosophy and moral cognition. Dr. Dale Purves from Duke University on how vision succeeds in the physical world. Dr. Mónica López-González from Johns Hopkins University on the neural basis of artistic creativity.  </description>
+    </item>
+    
+    <item>
+      <title>2016</title>
+      <link>https://OmegaPsiJHU.github.io/conference/past/2016/</link>
+      <pubDate>Sun, 20 Aug 2017 22:07:43 -0500</pubDate>
+      
+      <guid>https://OmegaPsiJHU.github.io/conference/past/2016/</guid>
+      <description>This conference was held in collaboration with Duke and Yale.
+Featured speakers:
+ Dr. Joshua Gold from the University of Pennsylvania on the neural bases of decision-making in monkeys. Dr. Mark Sheskin from Yale University on the development of moral behavior in children. Dr. Bonnie Nozari from Johns Hopkins University on aphasia and aspects of executive control in humans.  </description>
+    </item>
+    
+  </channel>
+</rss>
