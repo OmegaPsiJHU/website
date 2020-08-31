@@ -30,7 +30,7 @@
       max-width: 60%; } }
   @media (max-width: 999px) {
     #posts {
-      max-width: 680px; } }
+      max-width:680px; } }
   #posts div.center-block {
     text-align: center; }
 
@@ -123,7 +123,7 @@ hr {
     text-align: justify; }
 
 #hero.main {
-  background-image: url("/img/board1718.png");
+  background-image: url("/img/board1718.jpg");
   background-size: cover; }
   #hero.main p, #hero.main h1 {
     color: #fff; }
@@ -167,6 +167,4 @@ h1.conftit {
 
 #nav-toggle-brand img {
   padding-top: 10px;
-  height: 60px; }
-
-/*# sourceMappingURL=custom.css.map */
+  height: 60px; } 

@@ -1,0 +1,22 @@
+{{ define "title"}} News {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>News</h1>
+    <p>Announcements, meeting minutes, events and more.<br> <a href="https://www.facebook.com/jhu.omegapsi/">Check us out on Facebook</a></p>
+</div>
+<ul id="posts" class="news">
+    <div class="centerblock">
+        <div class="inner">
+         {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
+         </div>
+      <section>{{ partial "pagination" .}}</section>
+     </div>
+</ul>
+
+{{ end }} 
+{{ define "footer" }} 
+  {{ partial "footer" . }} 
+{{ end }}

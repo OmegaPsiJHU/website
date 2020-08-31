@@ -2,8 +2,6 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 
 {{ define "main" }}
-{{/* fucking refactor this gross shit when they add different templates
-	for subsections */}}
 {{if isset .Params "old" }}
  <div id="hero" class="wrap">
   <h1>{{ .Title }}</h1>

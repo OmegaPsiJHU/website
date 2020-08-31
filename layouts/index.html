@@ -1,19 +1,19 @@
+
 {{ define "title"}} {{ .Site.Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-
-<div id="hero" class="main">
-  <div id="logo">
-    <img alt="Omega Psi Insignia" src="/img/logo.png">
-  </div>
-  <h1>{{.Title}}</h1>
-  <p>{{.Description}}</p>
-  <div id="action-buttons">
-    <a class="button primary big" href="/contact/">Contact Us</a> <a class="button outline big" href="https://www.facebook.com/jhu.omegapsi/">Find us on Facebook</a>
-  </div>
-</div>
 <div id="main">
+  <div id="hero" class="main">
+    <div id="logo">
+      <img src="/img/logo.png" alt="Omega Psi Insignia">
+    </div>
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="/contact">Contact Us</a>
+  </div>
   <div id="kube-features">
     <div class="row gutters">
       <div class="col col-6 item">
@@ -21,15 +21,8 @@
           <i class="fa fa-graduation-cap fa-4x fa-outline" alt="Academics"></i>
         </figure>
         <h3>Academics</h3>
-          <p>Meet other people interested in the brain sciences and get to know professors in the department at our meetings. Plus, become an honors member to show off your hard work. Learn more at our <a href="https://omegapsi.org">national site.</a></p>
+          <p>Meet other people interested in the brain sciences and get to know professors in the department at our meetings. Plus, become an honors member to show off your hard work.</a></p>
       </div>
-      <!--<div class="col col-4 item">
-        <figure>
-          <img alt="Typography" height="48" src="/img/kube/icon-typo.png" width="48">
-        </figure>
-        <h3>Service</h3>
-        <p></p>
-      </div>-->
       <div class="col col-6 item">
         <figure>
          <i class="fa fa-briefcase fa-4x fa-outline" alt="Conference"></i>
@@ -37,8 +30,8 @@
         <h3>Conference</h3>
         <p>We have hosted the East Coast Omega Psi conference for the past two years, featuring speakers from Yale, Duke, and JHU, and will proudly do so again this year. Check back for updates!</p>
       </div>
-    </div>
   </div>
+</div>
 </div>
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}
